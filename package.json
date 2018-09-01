@@ -1,0 +1,35 @@
+{
+	"name": "stock-price-checker",
+	"version": "0.0.1",
+	"description": "Stock checker for the NASDAQ",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "node-fetch": "^2.2.0",
+    "helmet": "^3.1.0",
+		"mocha": "^3.2.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.2.12",
+    "request": "^2.88.0",
+		"zombie": "^5.0.5"
+	},
+	"engines": {
+		"node": "8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://possible-sneeze.glitch.me"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"license": "MIT"
+}
