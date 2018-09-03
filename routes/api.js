@@ -9,7 +9,6 @@
 'use strict';
 
 const expect = require('chai').expect;
-const MongoClient = require('mongodb');
 const mongoose = require('mongoose');
 const request = require('request');
 
