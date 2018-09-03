@@ -109,7 +109,7 @@ module.exports = (app) => {
             delete responseData[1]['likes'];
           }
           res.send({stockData: responseData})
-        }, 300*(queryStock.match(/,/g).length)+1); // we leave 300ms for each database query
+        }, 300*(1+(queryStock.match(/,/g) || []).length)); // we leave 300ms for each database query
       }
     });
   });
